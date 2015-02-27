@@ -21,6 +21,7 @@
 		1178B23E1AA0511A006A4785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1178B2201AA05119006A4785 /* UIKit.framework */; };
 		1178B2461AA0511A006A4785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1178B2441AA0511A006A4785 /* InfoPlist.strings */; };
 		1178B2481AA0511A006A4785 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1178B2471AA0511A006A4785 /* HypnosisterTests.m */; };
+		1178B2531AA053C3006A4785 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1178B2521AA053C3006A4785 /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1178B2431AA0511A006A4785 /* HypnosisterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnosisterTests-Info.plist"; sourceTree = "<group>"; };
 		1178B2451AA0511A006A4785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1178B2471AA0511A006A4785 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		1178B2511AA053C3006A4785 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		1178B2521AA053C3006A4785 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				1178B22E1AA0511A006A4785 /* Main.storyboard */,
 				1178B2311AA0511A006A4785 /* BNRViewController.h */,
 				1178B2321AA0511A006A4785 /* BNRViewController.m */,
+				1178B2511AA053C3006A4785 /* BNRHypnosisView.h */,
+				1178B2521AA053C3006A4785 /* BNRHypnosisView.m */,
 				1178B2341AA0511A006A4785 /* Images.xcassets */,
 				1178B2231AA0511A006A4785 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				1178B2291AA0511A006A4785 /* main.m in Sources */,
 				1178B22D1AA0511A006A4785 /* BNRAppDelegate.m in Sources */,
+				1178B2531AA053C3006A4785 /* BNRHypnosisView.m in Sources */,
 				1178B2331AA0511A006A4785 /* BNRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
