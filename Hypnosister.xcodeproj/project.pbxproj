@@ -22,6 +22,32 @@
 		1178B2461AA0511A006A4785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1178B2441AA0511A006A4785 /* InfoPlist.strings */; };
 		1178B2481AA0511A006A4785 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1178B2471AA0511A006A4785 /* HypnosisterTests.m */; };
 		1178B2531AA053C3006A4785 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1178B2521AA053C3006A4785 /* BNRHypnosisView.m */; };
+		32A84F2C1AA0A364002EFF88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F111AA0A364002EFF88 /* Default-568h@2x.png */; };
+		32A84F2D1AA0A364002EFF88 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F121AA0A364002EFF88 /* Default@2x.png */; };
+		32A84F2E1AA0A364002EFF88 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F131AA0A364002EFF88 /* Hypno.png */; };
+		32A84F2F1AA0A364002EFF88 /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F141AA0A364002EFF88 /* Hypno@2x.png */; };
+		32A84F301AA0A364002EFF88 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F151AA0A364002EFF88 /* Icon@2x.png */; };
+		32A84F311AA0A364002EFF88 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F161AA0A364002EFF88 /* logo.png */; };
+		32A84F321AA0A364002EFF88 /* Homepwner-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F181AA0A364002EFF88 /* Homepwner-120.png */; };
+		32A84F331AA0A364002EFF88 /* Homepwner-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F191AA0A364002EFF88 /* Homepwner-152.png */; };
+		32A84F341AA0A364002EFF88 /* Homepwner-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F1A1AA0A364002EFF88 /* Homepwner-76.png */; };
+		32A84F351AA0A364002EFF88 /* HypnoNerd-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F1B1AA0A364002EFF88 /* HypnoNerd-120.png */; };
+		32A84F361AA0A364002EFF88 /* HypnoNerd-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F1C1AA0A364002EFF88 /* HypnoNerd-152.png */; };
+		32A84F371AA0A364002EFF88 /* HypnoNerd-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F1D1AA0A364002EFF88 /* HypnoNerd-76.png */; };
+		32A84F381AA0A364002EFF88 /* Hypnosister-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F1E1AA0A364002EFF88 /* Hypnosister-120.png */; };
+		32A84F391AA0A364002EFF88 /* Hypnosister-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F1F1AA0A364002EFF88 /* Hypnosister-152.png */; };
+		32A84F3A1AA0A364002EFF88 /* Hypnosister-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F201AA0A364002EFF88 /* Hypnosister-76.png */; };
+		32A84F3B1AA0A364002EFF88 /* Nerdfeed-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F211AA0A364002EFF88 /* Nerdfeed-120.png */; };
+		32A84F3C1AA0A364002EFF88 /* Nerdfeed-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F221AA0A364002EFF88 /* Nerdfeed-152.png */; };
+		32A84F3D1AA0A364002EFF88 /* Nerdfeed-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F231AA0A364002EFF88 /* Nerdfeed-76.png */; };
+		32A84F3E1AA0A364002EFF88 /* Quiz-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F241AA0A364002EFF88 /* Quiz-120.png */; };
+		32A84F3F1AA0A364002EFF88 /* Quiz-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F251AA0A364002EFF88 /* Quiz-152.png */; };
+		32A84F401AA0A364002EFF88 /* Quiz-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F261AA0A364002EFF88 /* Quiz-76.png */; };
+		32A84F411AA0A364002EFF88 /* TouchTracker-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F271AA0A364002EFF88 /* TouchTracker-120.png */; };
+		32A84F421AA0A364002EFF88 /* TouchTracker-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F281AA0A364002EFF88 /* TouchTracker-152.png */; };
+		32A84F431AA0A364002EFF88 /* TouchTracker-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F291AA0A364002EFF88 /* TouchTracker-76.png */; };
+		32A84F441AA0A364002EFF88 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F2A1AA0A364002EFF88 /* Time.png */; };
+		32A84F451AA0A364002EFF88 /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A84F2B1AA0A364002EFF88 /* Time@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +82,32 @@
 		1178B2471AA0511A006A4785 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
 		1178B2511AA053C3006A4785 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
 		1178B2521AA053C3006A4785 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		32A84F111AA0A364002EFF88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		32A84F121AA0A364002EFF88 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		32A84F131AA0A364002EFF88 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		32A84F141AA0A364002EFF88 /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		32A84F151AA0A364002EFF88 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		32A84F161AA0A364002EFF88 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		32A84F181AA0A364002EFF88 /* Homepwner-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Homepwner-120.png"; sourceTree = "<group>"; };
+		32A84F191AA0A364002EFF88 /* Homepwner-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Homepwner-152.png"; sourceTree = "<group>"; };
+		32A84F1A1AA0A364002EFF88 /* Homepwner-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Homepwner-76.png"; sourceTree = "<group>"; };
+		32A84F1B1AA0A364002EFF88 /* HypnoNerd-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HypnoNerd-120.png"; sourceTree = "<group>"; };
+		32A84F1C1AA0A364002EFF88 /* HypnoNerd-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HypnoNerd-152.png"; sourceTree = "<group>"; };
+		32A84F1D1AA0A364002EFF88 /* HypnoNerd-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HypnoNerd-76.png"; sourceTree = "<group>"; };
+		32A84F1E1AA0A364002EFF88 /* Hypnosister-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypnosister-120.png"; sourceTree = "<group>"; };
+		32A84F1F1AA0A364002EFF88 /* Hypnosister-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypnosister-152.png"; sourceTree = "<group>"; };
+		32A84F201AA0A364002EFF88 /* Hypnosister-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypnosister-76.png"; sourceTree = "<group>"; };
+		32A84F211AA0A364002EFF88 /* Nerdfeed-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nerdfeed-120.png"; sourceTree = "<group>"; };
+		32A84F221AA0A364002EFF88 /* Nerdfeed-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nerdfeed-152.png"; sourceTree = "<group>"; };
+		32A84F231AA0A364002EFF88 /* Nerdfeed-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nerdfeed-76.png"; sourceTree = "<group>"; };
+		32A84F241AA0A364002EFF88 /* Quiz-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quiz-120.png"; sourceTree = "<group>"; };
+		32A84F251AA0A364002EFF88 /* Quiz-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quiz-152.png"; sourceTree = "<group>"; };
+		32A84F261AA0A364002EFF88 /* Quiz-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quiz-76.png"; sourceTree = "<group>"; };
+		32A84F271AA0A364002EFF88 /* TouchTracker-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TouchTracker-120.png"; sourceTree = "<group>"; };
+		32A84F281AA0A364002EFF88 /* TouchTracker-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TouchTracker-152.png"; sourceTree = "<group>"; };
+		32A84F291AA0A364002EFF88 /* TouchTracker-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TouchTracker-76.png"; sourceTree = "<group>"; };
+		32A84F2A1AA0A364002EFF88 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		32A84F2B1AA0A364002EFF88 /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +183,7 @@
 		1178B2231AA0511A006A4785 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32A84F101AA0A364002EFF88 /* 00-Resources */,
 				1178B2241AA0511A006A4785 /* Hypnosister-Info.plist */,
 				1178B2251AA0511A006A4785 /* InfoPlist.strings */,
 				1178B2281AA0511A006A4785 /* main.m */,
@@ -155,6 +208,47 @@
 				1178B2441AA0511A006A4785 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A84F101AA0A364002EFF88 /* 00-Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32A84F111AA0A364002EFF88 /* Default-568h@2x.png */,
+				32A84F121AA0A364002EFF88 /* Default@2x.png */,
+				32A84F131AA0A364002EFF88 /* Hypno.png */,
+				32A84F141AA0A364002EFF88 /* Hypno@2x.png */,
+				32A84F151AA0A364002EFF88 /* Icon@2x.png */,
+				32A84F161AA0A364002EFF88 /* logo.png */,
+				32A84F171AA0A364002EFF88 /* Project App Icons */,
+				32A84F2A1AA0A364002EFF88 /* Time.png */,
+				32A84F2B1AA0A364002EFF88 /* Time@2x.png */,
+			);
+			path = "00-Resources";
+			sourceTree = "<group>";
+		};
+		32A84F171AA0A364002EFF88 /* Project App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				32A84F181AA0A364002EFF88 /* Homepwner-120.png */,
+				32A84F191AA0A364002EFF88 /* Homepwner-152.png */,
+				32A84F1A1AA0A364002EFF88 /* Homepwner-76.png */,
+				32A84F1B1AA0A364002EFF88 /* HypnoNerd-120.png */,
+				32A84F1C1AA0A364002EFF88 /* HypnoNerd-152.png */,
+				32A84F1D1AA0A364002EFF88 /* HypnoNerd-76.png */,
+				32A84F1E1AA0A364002EFF88 /* Hypnosister-120.png */,
+				32A84F1F1AA0A364002EFF88 /* Hypnosister-152.png */,
+				32A84F201AA0A364002EFF88 /* Hypnosister-76.png */,
+				32A84F211AA0A364002EFF88 /* Nerdfeed-120.png */,
+				32A84F221AA0A364002EFF88 /* Nerdfeed-152.png */,
+				32A84F231AA0A364002EFF88 /* Nerdfeed-76.png */,
+				32A84F241AA0A364002EFF88 /* Quiz-120.png */,
+				32A84F251AA0A364002EFF88 /* Quiz-152.png */,
+				32A84F261AA0A364002EFF88 /* Quiz-76.png */,
+				32A84F271AA0A364002EFF88 /* TouchTracker-120.png */,
+				32A84F281AA0A364002EFF88 /* TouchTracker-152.png */,
+				32A84F291AA0A364002EFF88 /* TouchTracker-76.png */,
+			);
+			path = "Project App Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +328,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A84F3D1AA0A364002EFF88 /* Nerdfeed-76.png in Resources */,
+				32A84F401AA0A364002EFF88 /* Quiz-76.png in Resources */,
+				32A84F441AA0A364002EFF88 /* Time.png in Resources */,
 				1178B2351AA0511A006A4785 /* Images.xcassets in Resources */,
+				32A84F3C1AA0A364002EFF88 /* Nerdfeed-152.png in Resources */,
+				32A84F301AA0A364002EFF88 /* Icon@2x.png in Resources */,
+				32A84F421AA0A364002EFF88 /* TouchTracker-152.png in Resources */,
+				32A84F331AA0A364002EFF88 /* Homepwner-152.png in Resources */,
+				32A84F411AA0A364002EFF88 /* TouchTracker-120.png in Resources */,
+				32A84F311AA0A364002EFF88 /* logo.png in Resources */,
+				32A84F361AA0A364002EFF88 /* HypnoNerd-152.png in Resources */,
+				32A84F431AA0A364002EFF88 /* TouchTracker-76.png in Resources */,
+				32A84F2C1AA0A364002EFF88 /* Default-568h@2x.png in Resources */,
+				32A84F2E1AA0A364002EFF88 /* Hypno.png in Resources */,
+				32A84F321AA0A364002EFF88 /* Homepwner-120.png in Resources */,
+				32A84F2D1AA0A364002EFF88 /* Default@2x.png in Resources */,
+				32A84F2F1AA0A364002EFF88 /* Hypno@2x.png in Resources */,
+				32A84F371AA0A364002EFF88 /* HypnoNerd-76.png in Resources */,
+				32A84F391AA0A364002EFF88 /* Hypnosister-152.png in Resources */,
+				32A84F351AA0A364002EFF88 /* HypnoNerd-120.png in Resources */,
+				32A84F3B1AA0A364002EFF88 /* Nerdfeed-120.png in Resources */,
 				1178B2271AA0511A006A4785 /* InfoPlist.strings in Resources */,
+				32A84F341AA0A364002EFF88 /* Homepwner-76.png in Resources */,
+				32A84F3E1AA0A364002EFF88 /* Quiz-120.png in Resources */,
+				32A84F381AA0A364002EFF88 /* Hypnosister-120.png in Resources */,
+				32A84F451AA0A364002EFF88 /* Time@2x.png in Resources */,
 				1178B2301AA0511A006A4785 /* Main.storyboard in Resources */,
+				32A84F3A1AA0A364002EFF88 /* Hypnosister-76.png in Resources */,
+				32A84F3F1AA0A364002EFF88 /* Quiz-152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +583,7 @@
 				1178B24D1AA0511A006A4785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1178B24E1AA0511A006A4785 /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +592,7 @@
 				1178B2501AA0511A006A4785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

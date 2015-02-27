@@ -24,6 +24,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
 {
+    int i = 0;
     CGRect bounds = self.bounds;
     CGPoint center;
     center.x = bounds.origin.x + bounds.size.width / 2.0;
@@ -33,15 +34,18 @@
     float maxRadius = hypot(bounds.size.width, bounds.size.height) / 2.0;
     UIBezierPath *path = [[UIBezierPath alloc] init];
 
-    for (float currentRadius = maxRadius; currentRadius > 0; currentRadius -= 20) {
+    for (float currentRadius = 10; currentRadius < maxRadius; currentRadius += 20) {
         [path addArcWithCenter:center
-                        radius:maxRadius
+                        radius:currentRadius
                     startAngle:0.0
                       endAngle:M_PI * 2.0
                      clockwise:YES];
         NSLog(@"current = %f", currentRadius);
+        if (++i > 1) {
+            break;
+        }
     }
-
+    
     path.lineWidth = 10.0;
     [[UIColor lightGrayColor] setStroke];
     [path stroke];
