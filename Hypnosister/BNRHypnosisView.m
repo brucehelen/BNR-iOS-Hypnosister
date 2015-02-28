@@ -33,6 +33,16 @@
     float maxRadius = hypot(bounds.size.width, bounds.size.height) / 2.0;
     UIBezierPath *path = [[UIBezierPath alloc] init];
 
+    [path moveToPoint:CGPointMake(center.x, center.y)];
+    [path addLineToPoint:CGPointMake(100, 100)];
+    [path addLineToPoint:CGPointMake(200, 200)];
+    [path addLineToPoint:CGPointMake(center.x, center.y)];
+    //path.lineWidth = 10.0;
+    [[UIColor lightGrayColor] setStroke];
+    //[path stroke];
+    [path addClip];
+
+    /*
     for (float currentRadius = 0; currentRadius < maxRadius; currentRadius += 20) {
         [path moveToPoint:CGPointMake(center.x + currentRadius, center.y)];
         [path addArcWithCenter:center
@@ -41,10 +51,39 @@
                       endAngle:M_PI * 2.0
                      clockwise:YES];
     }
-    
+
     path.lineWidth = 10.0;
     [[UIColor lightGrayColor] setStroke];
     [path stroke];
+     */
+
+    /*
+    // 初级练习：绘制图像
+    CGContextRef currentContext = UIGraphicsGetCurrentContext();
+    CGContextSaveGState(currentContext);
+    CGContextSetShadow(currentContext, CGSizeMake(4, 7), 3);
+
+    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
+    CGSize imageSize = logoImage.size;
+    CGFloat x = rect.size.width / 2.0 - imageSize.width / 4.0;
+    CGFloat y = rect.size.height / 2.0 - imageSize.height / 4.0;
+    CGRect logoRect = CGRectMake(x, y, imageSize.width / 2.0, imageSize.height / 2.0);
+    [logoImage drawInRect:logoRect];
+    CGContextRestoreGState(currentContext);
+
+    // 绘制渐变三角形
+    CGFloat locations[2] = {0, 1};
+    CGFloat components[8] = {1.0, 0.0, 0.0, 1.0,    // 起始颜色为红色
+                             1.0, 1.0, 0.0, 1.0};   // 终点颜色为黄色
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    CGContextSaveGState(currentContext);
+    CGGradientRef gradient = CGGradientCreateWithColorComponents(colorSpace, components, locations, 2);
+    // kCGGradientDrawsBeforeStartLocation | kCGGradientDrawsAfterEndLocation
+    CGContextDrawLinearGradient(currentContext, gradient, CGPointMake(100, 100), CGPointMake(200, 300), 0);
+    CGGradientRelease(gradient);
+    CGColorSpaceRelease(colorSpace);
+    CGContextRestoreGState(currentContext);
+     */
 }
 
 
