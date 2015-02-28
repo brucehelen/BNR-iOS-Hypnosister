@@ -8,6 +8,10 @@
 
 #import "BNRHypnosisView.h"
 
+@interface BNRHypnosisView()
+@property (strong, nonatomic) UIColor *circleColor;
+@end
+
 @implementation BNRHypnosisView
 
 - (id)initWithFrame:(CGRect)frame
@@ -15,6 +19,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor clearColor];
+        self.circleColor = [UIColor lightGrayColor];
     }
     return self;
 }
@@ -33,6 +38,7 @@
     float maxRadius = hypot(bounds.size.width, bounds.size.height) / 2.0;
     UIBezierPath *path = [[UIBezierPath alloc] init];
 
+    /*
     [path moveToPoint:CGPointMake(center.x, center.y)];
     [path addLineToPoint:CGPointMake(100, 100)];
     [path addLineToPoint:CGPointMake(200, 200)];
@@ -41,8 +47,8 @@
     [[UIColor lightGrayColor] setStroke];
     //[path stroke];
     [path addClip];
+    */
 
-    /*
     for (float currentRadius = 0; currentRadius < maxRadius; currentRadius += 20) {
         [path moveToPoint:CGPointMake(center.x + currentRadius, center.y)];
         [path addArcWithCenter:center
@@ -51,13 +57,12 @@
                       endAngle:M_PI * 2.0
                      clockwise:YES];
     }
-
+    
     path.lineWidth = 10.0;
-    [[UIColor lightGrayColor] setStroke];
+    //[[UIColor lightGrayColor] setStroke];
+    [self.circleColor setStroke];
     [path stroke];
-     */
 
-    /*
     // 初级练习：绘制图像
     CGContextRef currentContext = UIGraphicsGetCurrentContext();
     CGContextSaveGState(currentContext);
@@ -71,7 +76,8 @@
     [logoImage drawInRect:logoRect];
     CGContextRestoreGState(currentContext);
 
-    // 绘制渐变三角形
+    /*
+    // 高级练习：绘制渐变三角形（未完成）
     CGFloat locations[2] = {0, 1};
     CGFloat components[8] = {1.0, 0.0, 0.0, 1.0,    // 起始颜色为红色
                              1.0, 1.0, 0.0, 1.0};   // 终点颜色为黄色
@@ -85,6 +91,28 @@
     CGContextRestoreGState(currentContext);
      */
 }
+
+- (void)setCircleColor:(UIColor *)circleColor
+{
+    _circleColor = circleColor;
+    [self setNeedsDisplay];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"%@ was touched", self);
+    
+    CGFloat red = (arc4random() % 100) / 100.0;
+    CGFloat green = (arc4random() % 100) / 100.0;
+    CGFloat blue = (arc4random() % 100) / 100.0;
+    UIColor *randomColor = [UIColor colorWithRed:red
+                                           green:green
+                                            blue:blue
+                                           alpha:1.0];
+    
+    self.circleColor = randomColor;
+}
+
 
 
 @end
