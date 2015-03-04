@@ -33,6 +33,9 @@
     _scrollView.pagingEnabled = NO;
     _scrollView.delegate = self;
     _scrollView.contentSize = bigRect.size;
+    // 设置最大伸缩比例和最小缩放比例，必须不一样，否则不会调用viewForZoomingInScrollView方法
+    _scrollView.maximumZoomScale = 1.5;
+    _scrollView.minimumZoomScale = 0.5;
 
     _hypnosisView = [[BNRHypnosisView alloc] initWithFrame:bigRect];
     [_scrollView addSubview:_hypnosisView];
@@ -46,10 +49,19 @@
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
-    NSLog(@"viewForZoom, %@", scrollView);
+    NSLog(@"viewForZoomingInScrollView");
     return _hypnosisView;
 }
 
+-(void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale
+{
+    NSLog(@"scrollViewDidEndZooming, scale = %f", scale);
+}
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    NSLog(@"scrollViewDidScroll");
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
