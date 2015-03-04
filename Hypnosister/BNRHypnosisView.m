@@ -98,6 +98,7 @@
     [self setNeedsDisplay];
 }
 
+/*
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     NSLog(@"%@ was touched", self);
@@ -112,7 +113,7 @@
     
     self.circleColor = randomColor;
 }
-
+*/
 
 
 @end
